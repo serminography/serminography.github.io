@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+   <fileDesc>
+       <titleStmt>
+            <title><hi rend="bold" style="color:red;">Risāle-i Sinüs li-Misāḥati’l-buʿd</hi></title>
+               <author>
+                  <persName> Müftʿiżāde-i Yenişehrî Mehmed Saîd Efendi </persName>
+                  <date when="1767"> 1767 (18.yy) </date>
+               </author> 
+         </titleStmt>
+       <publicationStmt>
+            <publisher>        
+               <addName>   Doç.Dr. Şermin KALAFAT </addName>
+               <settlement> istanbul Medeniyet Üniversitesi / Türk Dili ve Edebiyatı Bölümü / Yeni Türk Dili</settlement>
+            </publisher>
+       <date when="2023-04-10"> 10 Nisan 2023 </date> 
+       </publicationStmt>
+      <sourceDesc>
+         <msDesc xml:id="MS1" xml:lang="osmT" >
+            <msIdentifier> 
+               <settlement> İstanbul </settlement>
+               <repository> Topkapı Sarayı Müzesi</repository>
+               <idno type= "shelfmark">Hazine nr. 609/1 (8v-10r) </idno>
+            </msIdentifier> 
+            <msContents>
+               <summary>"Uzaktaki yerlerin mesahasını ölçmekte kullanılan sinüs adlı bir matematik
+                  aletinin yapımı ve kullanımı hakkında bir risaledir."</summary>
+            </msContents>
+            <history>
+               <origin when="1154"> 1741 (18.yy)</origin>
+            </history> 
+         </msDesc> 
+     </sourceDesc>
+    </fileDesc>  
+  </teiHeader>
+  <text>
+      <body>
+         <div type="chapter" n="1">
+            <head n="1" rend="bold" style="color:black;"> I. Bölüm - Transkripsiyon </head>
+         <div n="1v"> <!--1. varak-->
+            <pb n="8v"/> <!--1.varak ön yüz-->
+               <figure>
+                  <graphic url="MS1_1v-1r.JPG"/>
+               </figure>
+            <head n="1v" rend="bold" style="color:black;"> [8v] </head>
+            <quote type="dua"> 
+            <p n="1" xml:lang="Ar"> 
+               <seg n="1"> (1) Elḥamdulillāhü’l-bāḳī elleẕī lā yezāl lā cennūl mezḥāl ilā ḥāl ve  </seg> 
+               <seg n="2"> (2) es-ṣalātu ve’s-selām ʿalā nebiyyehü’l-mebʿūs bi-eşref el-ḥıṣāl ve ʿalā ālihi</seg>
+               <seg n="3" xml:id="p1Satır3"> (3) ve eṣḥābihi ve ehl-i beynehu ve āmennehu ecmaʿīn.</seg>
+            </p>      
+            </quote>
+            <p n="2" xml:lang="OsmT">
+                  <seg n="3" xml:id="p1Satır3_cont">
+                     <hi rend="bold" style="color:red;"> ve baʿd </hi> sinüs dimekle</seg>
+                  <seg n="4"> (4)maʿrūf olan āleti resm eylemek murād olınsa gerek pirinç ve gerek </seg>
+                  <seg n="5"> (5) aġaç her ḳanġısından olursa rāst gönye şeklinde dü pāy </seg>
+                  <seg n="6"> (6) olup bir pāyı bir pāyından dirāz ola. Ol dirāz olanı ḳāme</seg>
+                  <seg n="7">(7) farż idüp mes̱elā <hi rend="bold">س</hi> yāḫūd <hi rend="bold"
+                        >ق</hi> yāḫūd <hi rend="bold">قك </hi>bunlardan</seg>
+                  <seg n="8"> (8) her birisine ale’s-seviyye ḳısmet idüp per-gār müteġayyir olmadan
+                     yine ḳısmet-i</seg>
+                  <seg n="9"> (9)merḳūmla pāy-ı eczāsiyle bir miḳdār gönye vāḳıʿ olmış-ıdı. Aŋa</seg>
+                  <seg n="10"> (10) ẓıll başdan başa her ne maḥalle bāliġ olursa resm idüp</seg>
+                  <seg n="11"> (11) ve her başuŋ mābeynine derecātı daḫı resm olınup aʿdād-ı
+                     ḥurūf-ı</seg>
+                  <seg n="12"> (12) teḥeccī  ile dü pāyuŋ teḳāṭuʿından bedʾen idüp resm idesin.</seg>
+                  <seg n="13"> (13) ve ol dü payüŋ birinüŋ üzerine ḳame ve birinüŋ üzerine.</seg>
+                  <seg n="14"> (14) eczā-i ẓıll diyü taḥrīr idesin. Baʿdehū ol pāy-ı dirāzuŋ </seg>
+                  <seg n="15"> (15) üzerine iki ucı hedefeteyn yāḫūd s̱uḳbeteyn üzere bir</seg>
+                  <seg n="16"> (16) ʿiżāde vażʿ idesin. Ve ol ʿiżādenüŋ bir ucı pāy-ı</seg>
+                  <seg n="17"> (17) dirāzuŋ ucına mıḥlanup ve bir ucı ḫālī ola. Ve ṭūlı
+                     ḳāmenüŋ</seg>
+                  <seg n="18"> (18) ṭūlından bir miḳdār ṭavīl ola ki fetḥ oldıġında</seg>
+                  <seg n="19"> (19) baş-ı pāy gönyenüŋ başına bāliġ ola. Ve ol fażliyye-i
+                     ḳāmeden</seg>
+                  <seg n="20"> (20) fażlalı resm idesin ki ḳāme bālāda meẕkūrdur. Baʿdehū</seg>
+                  <seg n="21"> (21) baş olduġı taḳdīrce başdan fażla her ne maḥalle bāliġ
+                     olursa</seg>
+                  <seg n="22"> (22) yine başdan başa resm idüp her başuŋ mābeynine derecātı
+                     resm </seg>
+                  <seg n="23"> (23) olına. Pes imdi sinüs dimekle maʿrūf olan āletüŋ </seg>
+                  <seg n="24"> (24) ʿameline gelelüm. ʿAmel-i merḳūmuŋ iki ṭarīḳi vardur: Ṭarīḳ-i evvel,</seg>
+               </p>
+       </div>
+       <div n= "2r">
+          <pb n="9r"/> <!--1.varak arka yüz-->
+          <head n="2r" rend="bold" style="color:black;"> [9r] </head>
+          <p n="1" xml:lang="OsmT"> 
+             <seg n="1"> (1) ḍarb u ḳısmet ile ḥāsıl olur ve ṭarīḳ-i s̱ānī nisbet ile </seg> 
+             <seg n="2"> (2) olur. Ḍarb u ḳısmet ile olan ṭarīḳ budur ki mes̱elā “Bir şeyʾüŋ</seg>
+             <seg n="3" xml:id="v1p1Satır3"> (3) buʿduŋ bilinmek murād olınsa?"</seg>
+          </p>
+          <p n="2" xml:lang="OsmT">
+             <seg n="3" xml:id="v1p1Satır3_cont"> <add>Cevāb:</add> Sinüsi bir düz maḥallde vażʿ</seg>
+             <seg n="4"> (4) idüp ve ʿiżādenüŋ ḫālī olan başını ḳāme üzerine rast</seg>
+             <seg n="5"> (5) vażʿ idüp ve sinüsi ol buʿdı bilinmek murād olınan şeyʾi</seg>
+             <seg n="6"> (6) görinceye dek az az ḥareket itdürüp ol şeyʾi gördükde</seg>
+             <seg n="7"> (7) ol maḥalle bir ʿalāmet vażʿ idesin ve sinüsi mevżiʿinden </seg>
+             <seg n="8"> (8) ḥareket itdirmeden cānibeynine ḥaṭṭ-ı ẓılla muvāżī bir ḥaṭṭ-ı </seg>
+             <seg n="9"> (9) müstaḳīm çekesin. Baʿdehū sinüsi refʿ idüp ḥaṭṭ-ı </seg>
+             <seg n="10"> (10) merḳūm üzerine murād itdigüŋ miḳdāra gidüp ol ḥaṭṭuŋ</seg>
+             <seg n="11"> (11) bir maḥalline vażʿ idesin. Bir vażʿla vażʿ idesin ki</seg>
+             <seg n="12"> (12) sinüsüŋ ḥaṭṭ-ı ẓıllı muḳaddem çekilen ḥaṭṭa müvāzī ola. Baʿdehū</seg>
+             <seg n="13"> (13) ʿiżādeʾi az az taḥrīk idüp tā ol buʿdnı bilmek murād </seg>
+             <seg n="14"> (14) itdügüŋ şeyʾi hedefeteynden görinceye dek ve gördükde ʿameline göre bir ʿalāmet daḫı vażʿ idesin. Baʿdehū naẓar</seg> 
+             <seg n="15"> (15) idesin ʿiżāde eczā-i ẓılldan ne miḳdār ẓıll ḳaṭʿ eylediyse</seg>
+             <seg n="16"> (16) ḥıfẓ idesin. Baʿdehū ʿalāmeteyn-i merḳūmeteyn mābeynini </seg>
+             <seg n="17"> (17) bir ẕirāʿla ẕirāʿlayup ne miḳdār ẕirāʿ olursa ḳāme ki </seg>
+             <seg n="18"> (18)<hi rend="bold">س</hi> farz olınmış-ıdı aŋa ḍarb idesin. Ḥāṣıl-ı ḍarb</seg>
+             <seg n="19"> (19) ol maʿlūmuŋ olan ẓılla ḳısmet idesin. Ḥāric-i</seg> 
+             <seg n="20"> (20)ḳısmet muḳaddem ʿalāmete vażʿ olınan mevżiʿden ol</seg>
+             <seg n="21"> (21) buʿdını bilmek murād itdügüŋ maḥallüŋ mābeyninde olan</seg>
+             <seg n="22" xml:id="v1p2Satır22"> (22) mesāfedür.</seg>
+          </p>  
+          <p n="3" xml:lang="OsmT" >
+             <seg n="22" xml:id="v1p2Satır22_cont"> Mes̱elā: “Bir cānibinden bir cānibe varınca ne miḳdār</seg>
+             <seg n="23" xml:id="v1p3Satır23"> (23) ẕirāʿdur ẕirāʿlanması mümkin olmaya bir nehr-i kebīrüŋ ḳarşu?”</seg>
+                </p>
+          <p n="4" xml:lang="OsmT">
+             <seg n="24"> (24) <add>Cevāb:</add> Cānibinde bir ḥacer olsa, ve cānibinden bir sinüsi bir maḥalle vażʿ</seg>            
+             <seg n="25"> (25) idüp hedefeteynden ol ḥaceri görüp sinüsi</seg> 
+             <seg n="26" xml:id="v1p3Satır26"> (26) vażʿ olınan maḥalle bir ʿalāmet vażʿ eyledük. Baʿdehū</seg>  
+           </p>    
+        </div>
+         <div n="3v"> <!-- 2. varak -->
+               <figure>
+                  <graphic url="MS1_2v-2r.JPG"/>
+               </figure>
+            <pb n="9v"/> <!--2. varak ön yüz-->
+            <head n="3v" rend="bold" style="color:black;"> [9v] </head>
+            <p n="1" xml:lang="OsmT">
+               <seg n="1" xml:id="v1p3Satır26_cont"> (1) sinüsüŋ ḥaṭṭ-ı ẓılla müvāzī bir ḥaṭṭ-ı
+                     müstaḳīm çeküp ve sinüsi</seg>
+                  <seg n="2"> (2) daḫı mevżiʿinden refʿ idüp bir miḳdār ol ḥaṭṭ-ı müstaḳīm</seg>
+                  <seg n="3"> (3) üzere gidüp ol ḥaṭṭuŋ bir maḥalline vażʿ itdük. Baʿdehū</seg>
+                  <seg n="4"> (4)ʿiżādeʾi az az taḥrīk idüp ol nehr-i kebīrüŋ karşu cānibinde</seg>
+                  <seg n="5"> (5) olan hacer-i meẕkūrı görüp naẓar itdük. ʿİżāde eczā-i</seg>
+                  <seg n="6"> (6) ẓılldan <hi rend="bold">ﮎ</hi> derece ḳaṭʿ eyledi. <hi rend="bold"
+                        >ﮎ</hi> dereceʾi ḥıfẓ eyledük. Baʿdehū</seg>
+                  <seg n="7"> (7) sinüs vażʿ olınan maḥalle bir ʿalāmet vażʿ itdük.
+                     ʿAlāmeteyn-i</seg>
+                  <seg n="8"> (8) merḳūmeteyn mābeynini ẕirāʿladuk. <hi rend="bold">ل</hi> ẕirāʿ
+                     ḳaṭʿ eyledi.</seg>
+                  <seg n="9"> (9) Baʿdehū ol <hi rend="bold">ل</hi> ẕirāʿ, ḳāme ki <hi rend="bold"
+                        >س</hi> idi, aŋa ḍarb eyledik.</seg>
+                  <seg n="10"> (10) <hi rend="bold">1800</hi> ẕirāʿ ḥāṣıl oldı. Baʿdehū ol ḥāṣıl-ı
+                     ḍarb olan </seg>
+                  <seg n="11"> (11) ʿaded-i maḥfūẓ olan <hi rend="bold">ﮎ</hi> dereceye ki
+                     muḳaddem-i ʿiżāde</seg>
+                  <seg n="12"> (12) eczā-i ẓılldan ḳaṭʿ eylemiş idi, aŋa ḳısmet eyledük; ḫāric-i
+                     ḳısmet</seg>
+                  <seg n="13"> (13) <hi rend="bold">س</hi> ẕirāʿ ḥāṣıl oldı. İmdi maʿlūm oldı ki ol
+                     nehr-i</seg>
+                  <seg n="14"> (14) kebīrüŋ bir cānibinden bir cānibine varınca ص ẕirāʿ olduġı</seg>
+                  <seg n="15" xml:id="r2p1Satır15"> (15) maʿlūm olur ve ḳıs ʿalā-ḥāẕā…</seg>
+               </p>
+            <p n="2" xml:lang="OsmT">
+               <seg n="15" xml:id="r2p1Satır15_cont"> Ve nisbet ile olan ṭarīḳ </seg>
+               <seg n="16" xml:id="r2p2Satır16"> (16) budur ki: Mes̱elā: “mis̱āl-i evvele göre <add>nisbet ne miḳdārdur?</add></seg>
+            </p>
+            <p n="3" xml:lang="OsmT">
+                  <seg n="16" xml:id="r2p2Satır16_cont">
+                     <add>Cevāb:</add>ʿiżāde eczā-i ẓılldan</seg>
+                  <seg n="17"> (17) <hi rend="bold">ﮎ</hi> derece ḳaṭʿ idüp ve ʿalāmeteynüŋ mābeyni
+                     ẕirāʿ</seg>
+                  <seg n="18"> (18) olınduḳda ل ẕirāʿ ḳaṭʿ itmiş-idi. Baʿdehū ol <hi rend="bold">ل
+                     </hi>ẕirāʿ</seg>
+                  <seg n="19"> (19) <hi rend="bold">ﮎ </hi>dereceye nisbet ṭutduḳda mis̱l ü nıṣf
+                     ẕirāʿ nisbet</seg>
+                  <seg n="20"> (20) ṭutdı. Biz daḫı ol nehr-i kebīrüŋ bir cānibinden bir cānibine
+                     varınca</seg>
+                  <seg n="21"> (21) mis̱l ü nıṣf ḳāme kadar didük-ki ḳāme <hi rend="bold">س</hi>
+                     farż olınmış-ıdı.</seg>
+                  <seg n="22"> (22) Mis̱l <hi rend="bold">س</hi> ve nıṣf <hi rend="bold">ل</hi> dur.
+                     Ol <hi rend="bold">ل</hi> dereceʾi <hi rend="bold">س</hi> dereceye żamm
+                     eyledük.</seg>
+                  <seg n="23"> (23) Yine <hi rend="bold">ص</hi> oldı. Yaʿnī yüz ẕirāʿ oldı. Ve ḳıs
+                     ʿalā-hāẕā…</seg>
+               </p>
+            <p n="4" xml:lang="OsmT">
+               <seg n="24"> (24) <add>Mes̱elā:</add>“Ve eger ol buʿdeynüŋ miḳdārı murād olınan şeyʾi sinüsüŋ</seg>
+               <seg n="25"> (25) ikinci vażʿ olınan maḥallden ne miḳdār?” diyü suʾāl olınursa</seg>
+               <seg n="26"> (26) yine ke’l-evvel ḍarb u ḳısmet ve nisbet ile olur. 
+                  <add>Cevāb-ı evvel:</add> Ḍarb u ḳısmet</seg>
+               <seg n="27" xml:id="r2p4Satır27"> (27) olduġı taḳdīrce mis̱āl-i meẕkūrda olduġı gibi sinüsüŋ</seg>
+            </p>
+      </div>
+         <div n="4r">
+            <pb n="10r"/> <!--2.varak arka yüz-->
+            <head n="4r" rend="bold" style="color:black;"> [10r] </head>
+            <p n="1" xml:lang="OsmT">
+                  <seg n="1" xml:id="r2p4Satır27_cont"> (1) ikinci vażʿında ʿiżāde eczā-i ẓılldan <hi
+                        rend="bold">ﮎ</hi> derece ẓıll</seg>
+                  <seg n="2"> (2) ḳaṭʿ itdükde ḳuṭr ẓılldan taḳrīben <hi rend="bold">سج</hi> derece
+                     ḳaṭʿ eyledi.</seg>
+                  <seg n="3"> (3) Ve ʿalāmeteynüŋ mābeyninde vāḳıʿ olan <hi rend="bold">ل</hi> ẕirāʿ
+                        <hi rend="bold">سج</hi> ḳuṭra</seg>
+                  <seg n="4"> (4) ḍarb eyledük; <hi rend="bold">1890</hi> ʿaded ḥāṣıl oldı. Ve bu
+                        <hi rend="bold">غضص</hi></seg>
+                  <seg n="5"> (5) ʿadedi <hi rend="bold">ﮎ</hi> dereceye ḳısmet eyledük. <hi
+                        rend="bold">صد</hi> ve nīm ẕirāʿ</seg>
+                  <seg n="6"> (6) ḥāṣıl olup sinüsüŋ mevżiʿ-i s̱ānīsinden ol maḥallüŋ </seg>
+                  <seg n="7" xml:id="v2p1Satır7"> (7) <hi rend="bold">صد</hi> ve nīm ẕirāʿıdur,
+                     didük.</seg>
+               </p>
+            <p n="2" xml:lang="OsmT">
+                  <seg n="7" xml:id="v2p1Satır7_cont">
+                     <add>Cevāb-ı s̱ānī:</add> Ve nisbet ile olduġı</seg>
+                  <seg n="8"> (8) taḳdīrce ʿiżāde taḳrīben <hi rend="bold">سح</hi> ḳuṭr ḳaṭʿ
+                     itmiş-idi.</seg>
+                  <seg n="9"> (9) Bu ʿalāmeteynüŋ mābeyninde vāḳıʿ olan <hi rend="bold">ل</hi>
+                     ẕirāʿı <hi rend="bold">ﮎ</hi></seg>
+                  <seg n="10"> (10) dereceye nisbet ṭutduḳ. Mis̱l ü nıṣf nisbet ṭutup ol</seg>
+                  <seg n="11"> (11) şeyʾüŋ buʿdı mis̱l ü nıṣf olur-ımış. Zīrā ḳuṭr <hi rend="bold"
+                        >سح</hi> oldı,</seg>
+                  <seg n="12"> (12) mis̱li yine <hi rend="bold">سح</hi> oldı. Nıṣf <hi rend="bold"
+                        >لا </hi>ve nīmdür. Ol لا ve nīm ḳuṭrı</seg>
+                  <seg n="13"><hi rend="bold">سح</hi> (13) ḳuṭra żamm eyledük yine ke’l-evvel <hi
+                        rend="bold">صد</hi> ve nīm ẕirāʿ ḥāṣıl</seg>
+                   <seg n="14"> (14) oldı. Ve ḳıs ʿalā-hāẕā.</seg>
+               </p>
+            <p n="3" xml:lang="OsmT">
+               <seg n="15"> (15) ḫatime</seg>
+               <seg n="16"> (16) mim.</seg>  
+            </p>  
+         </div>  
+     </div>   
+         <div type="chapter" n="2">
+            <head n="2" rend="bold" style="color:black;">II. Bölüm - Metin Çevirisi</head>
+            <div  n="1v"> <!--1. varak-->
+                  <pb n="8v"/> <!-- 1. varak ön yüz--> 
+               <head n="1v" rend="bold" style="color:black;" > [8v] </head>
+               <quote type="dua"> 
+               <p n="1" xml:lang="T"> 
+                  <seg n="1-3"> [1-3] Sonsuz olan Allah'a şükürler olsun ki, O'nun dışında her şey yok olup giderken O, değişmeden kalır. Allah'ın selamı ve bereketi, en yüce mertebeye yükseltilmiş peygamberi Hz. Muhammed'e, ailesine, arkadaşlarına ve tüm inananlara olsun.</seg>
+               </p>      
+               </quote>
+                <p n="2" xml:lang="modernT">  
+                   <seg n="3-24"> 
+                    [3-24]  ve sonra, sinüs demekle bilinen aleti resmetmek istense gerek pirinç ve gerek ağaç hangisi olursa düz gönye şeklinde iki ayak olup bir ayağı diğer ayağından uzun olmalıdır. Söz konusu uzun olan <add>ayağı</add> dikme kabul edip, sözgelimi 60 veya 100 veya 120, bunlardan birisine aynı boyda olacak şekilde bölüp pergel değişmeden yine kesirlerin <add>bulunduğu</add> ayak ile bölünen sayılarla bir miktar gönye oluşmuştu. Ona gölge baştan başa her ne yere yetişirse çizip ve her başın ortasına dereceleri de çizip hece harflerinin sayıları ile iki ayağın kesişiminden başlayarak çizersin. O iki ayağın birini üzerine dikme ve diğerinin üzerine gölgenin kesirleri diyerek yazarsın. Sonra o uzun ayağın üzerine iki ucu iki hedefin veya iki deliğin üzerinde olacak bir cetvel koyarsın. Bu cetvelin bir ucu uzun ayağın ucuna yerleştirilip ve diğer ucu da boşta olmalıdır. Uzunluğu dikmenin uzunluğundan bir miktar uzun olmalıdır ki açıldığında ayağın başı gönyenin başına yetişsin. Dikme bilinen uzunluk olduğundan dikmenin fazlasından fazla olanı çizmelisin. Buna göre baş (fazla) olduğu takdirde baştan fazla her ne yere yetişirse yine baştan başa çizip her başın ortasına dereceleri çizmelisin. Öyleyse sinüs adıyla bilinen aletin işlevine gelelim. (Bu alet ile) hesaplama işleminin iki yolu vardır: Birinci yol,  
+                   </seg>   
+                </p> 
+       </div>
+            <div n= "2r"> 
+               <pb n="9r"/> <!--1.varak arka yüz-->
+               <head n="2r" rend="bold" style="color:black;"> [9v] </head>
+               <p n="1" xml:lang="ModernT"> 
+                  <seg n="1-3"> [1-3] çarpma ve bölme ile bulunur ve ikinci yol da orantı ile olur. Çarpma ve bölme ile olan yöntem şudur: 
+                     Problem: “Bir şeyin uzaklığı bilinmek istenirse?" 
+                  </seg> 
+             </p>
+               <p n="2" xml:lang="ModernT">
+                  <seg n="3-22"> [3-22] <add>Cevap:</add>Sinüs aletini düz bir yerde ortaya çıkarıp cetvelin boş hali olan başını dikme üzerine doğru getirip ve sinüsü o uzaklığı bilinmek istenen şeyi görünceye kadar az az hareket ettirip o şeyi gördükten sonra oraya bir işaret koyarsın ve sinüsü bulunduğu yerden hareket ettirmeden iki tarafına gölge çizgisiyle paralel bir doğru çizersin. Sonra sinüsü kaldırıp sayı doğrusu üzerinde bulmak istediğin sayıya gidip o çizginin bir yerine koyarsın. Tek hareketle koymalısın ki sinüsün gölge çizgisi devamlı çekilen doğruya paralel olsun. Ardından o uzaklığını bulmak istediğin şeyi hedefte görünceye kadar cetveli az az kımıldatıp ve gördükten sonra işlemine göre bir işaret koyarsın. Bundan sonra, cetvelde gölgenin kesirlerinden ne kadar gölge geçtiğine bakarsın, (cetvelde gördüğün bu sayıyı) elde diye saklarsın. Sonra iki hesabın iki işaretinin (sayısının) ortasını bir zirayla zira üzerinden hesaplayıp ne kadar zira olursa 60 varsayılmış olan dikmeye çarparsın. Çarpmanın sonucunu bilinen gölgenin sayısına bölersin. Bölüm devamlı olan işarete koyulan yerden o uzaklığını bilmek istediğin yerin ortasında olan uzaklıktır.   
+                  </seg>
+                  <!-- Formülasyonu şöyle yapılabilir: Burada $d$ hedefe olan uzaklık, $c$ dikmenin bilinen uzunluğu, $a$ işaretlenen derece, $b$ ise işaretlenen dakikadır.-->
+                  <formula notation="TeX">
+                     <![CDATA[ 
+                   \begin{formula}
+                  $$d = \frac{c}{\tan(a+\frac{b}{60})} \cdot \frac{\text{gölge sayısı}}{100}$$
+                   \end{formula}]]>
+                  </formula>
+               </p>
+               <p n="3" xml:lang="ModernT" >
+                  <seg n="22-23"> [22-23] Problem: “Ziralanması imkansız olacak <add>kadar</add> büyük bir nehrin karşı tarafında bir kaya olduğunda bir taraftan diğer tarafa varıncaya kadar <add> olan uzaklık </add> ne kadar ziradır?”  </seg>
+                  </p>
+               <p n= "4" xml:lang="ModernT">
+                  <seg n="23-26"> [23-26] <add>Cevap:</add> Bir tarafından sinüsü bir yere koyup iki hedeften o kayayı görüp sinüs koyulan yere bir işaret koyduk. Sonra</seg>
+                  <!-- $$\text{Uzaklık (zira)} = \dfrac{\text{Gölgenin geçtiği açı (derece)}\times\text{Dikmenin uzunluğu (zira)}}{\text{Gölgenin küsurunu geçtiği açı (derece)}}$$
+                     Burada, $\text{Gölgenin geçtiği açı}$ sinüs aleti kullanılarak ölçülen açıdır, $\text{Dikmenin uzunluğu}$ sinüs aletinde cetvelin boşluğu üzerine dik bir şekilde yerleştirilen bir çubuktur, ve $\text{Gölgenin küsurunu geçtiği açı}$ sinüs aletinde cetvelin gölgesinin kaç derece geçtiğini ifade eder. 
+                         problemde: - $\text{Gölgenin geçtiği açı (derece)} = 20^\circ$; - $\text{Dikmenin uzunluğu (zira)} = 30$; - $\text{Gölgenin küsurunu geçtiği açı (derece)} = 60^\circ$
+                  -->
+                  <formula notation="TeX">
+                   <![CDATA[ 
+                   \begin{formula}
+                   $$\text{Uzaklık (zira)} = \dfrac{20^\circ\times 30}{60^\circ} = 10 \text{ zira}$$
+                    \end{formula}]]>
+                  </formula> 
+                  <formula notation="TeX">
+                     <![CDATA[ 
+                   \begin{formula}
+                  $\text{Uzaklık} = \text{90 zira} = 9 \times \text{10 hesap} = \text{9 hesaplamalık}$
+                    \end{formula}]]>
+                  </formula> 
+               </p>    
+            </div>  
+         <div n="3v"> <!-- 2. varak -->
+               <pb n="9v"/> <!--2. varak ön yüz-->
+            <head n="3v" rend="bold" style="color:black;"> [9v] </head>
+               <p n="1" xml:lang="ModernT">
+                  <seg n="1-15"> [1-15] sinüsün gölge doğrusuyla paralel bir doğru çekip ve sinüsü de yerinden kaldırıp bir miktar o sayı doğrusu üzerine gidip o doğrunun bir yerine koyduk. Sonra cetveli az az kımıldatıp o büyük nehrin karşı tarafında olan söz konusu kayayı görüp dikkatle baktık; cetvel gölgenin kesirlerinden 20 derece geçti. Bu 20 dereceyi <add>elde diye</add>  sakladık. Sonra sinüs koyulan yere bir işaret koyduk. İki hesaplamanın işaretlerinin ortasını zira üzerinden hesapladık. 30 zira geçti. Sonra o 30 zirayı 60 olan dikmeyle çarptık, 1800 zira meydana geldi. Sonra o çarpımın sonucunu önceki cetvelin gölgenin kesirlerini geçmesiyle bulunan ve elde diye saklanan sayı olan 20 dereceye böldük; bölüm 60 zira oldu. Buna göre, o büyük nehrin bir tarafından diğer tarafına varıncaya kadar 90 zira olduğu bilindi, var sen artık kıyas et…   </seg>      
+               </p>
+               <p n="2" xml:lang="ModernT">
+                  <seg n="15-16"> [15-16] Orantı ile olan yöntem şudur: 
+                     Problem: “Önceki probleme göre <add> oran ne miktardır? </add> 
+                     <!-- Eğer aynı problem orantı ile çözülürse: aynı işlem için orantı kurarız. X dediğimiz büyük nehrin bir tarafından diğer tarafına 
+                     varıncaya kadar olan uzaklığı temsil eder.--></seg> 
+                  <formula notation="TeX">
+                     <![CDATA[ 
+                   \begin{formula}
+                    $$\frac{(30\,\mathrm{zira})}{(20\,\mathrm{derece})} = \frac{(2\times 60\,\mathrm{zira}) + (0.5\times 60\,\mathrm{zira})}{\mathrm{X}}$$
+                    \end{formula}]]>
+                  </formula>
+                </p>
+            <p n="3" xml:lang="ModernT">
+               <seg n="16-23"> [16-23] <add>Cevap:</add> Cetvel gölgenin kesirlerinden 20 derece geçip iki işaretin ortası zira üzerinden hesaplandığında 30 zira geçmişti. Sonra o 30 zira 20 dereceye orantılandığında iki katı ve yarım zira oran oldu. Biz de o büyük nehrin bir tarafından diğer tarafına varıncaya kadar 60 varsayılmış olan dikme kadar iki katı ve yarımı dedik. İki katı 60 ve yarısı 30 dur. O 30 dereceyi 60 dereceye ekledik, tekrar 90 oldu, yani <add>zira hesabına göre</add> 100 zira oldu, var sen artık kıyas et... </seg>
+               <formula notation="TeX">
+                  <![CDATA[ 
+                   \begin{formula}
+                    $$\mathrm{X} = \frac{(2\times 60\,\mathrm{zira}) + (0.5\times 60\,\mathrm{zira})}{\frac{(30\,\mathrm{zira})}{(20\,\mathrm{derece})}} = 100\,\mathrm{zira}$$
+                    \end{formula}]]>
+               </formula> 
+            </p>
+            <p n="4" xml:lang="ModernT">
+               <seg n="24-26"> [24-26] <add>Problem:</add> “<add>Nehir problemine göre</add>iki uzaklığın miktarı bulunmak istenen sinüsün ikinci koyulan yerinden ne kadardır?” diye sorulursa yine önceki gibi çarpma ve bölme ve orantı ile bulunur.  </seg>
+               </p>
+               <p n="5" xml:lang="ModernT" >
+                  <seg n="26-27"> [26-27] <add>Birinci cevap:</add>Çarpma ve bölmeye göre çözümlenirse söz konusu örnekte olduğu gibi sinüsün </seg>
+               </p>
+            </div>
+            <div n="4r">
+               <pb n="10r"/> <!--2.varak arka yüz-->
+               <head n="4r" rend="bold" style="color:black;"> [10r] </head>
+               <p n="1" xml:lang="ModernT">
+                  <seg n="1-7"> [1-7] ikinci konulan yerinden cetvel gölgenin kesirlerinden 20 derece gölge geçtiğinde çap gölgeden yaklaşık 63 derece geçti. İki işaretin ortasında bulunan 30 zirayı 63 olan çapa çarptık, 1890 sayısı bulundu. Bu sayıyı 20 dereceye böldük. 94 buçuk zira bulunup sinüsün ikinci konulduğu yerden o yerin 94 buçuk zira dedik.  </seg>
+                
+                  <!-- Birinci yöntem, çarpma ve bölmeye göre, ikinci koyulan yerin uzaklığı, cetvelin gölgesinin parçasının 20 derece geçtiği noktadan geçen, bulunan çapın gölgesinin kesirlerinden
+                  yaklaşık 63 derece geçmesiyle bulunur. (30*63=1890/20=94,5 Bulunmak istenen yerin sinüsünün ikinci koyulan yerinden 94.5 zira uzaktadır anlamına gelir. TeX formulasyon:-->
+                  <formula notation="TeX">
+                     <![CDATA[ 
+                     \begin{formula}
+                     $$\frac{\text{30 zira}\cdot\text{63 derece}}{\text{20 derece}}=\text{1890 zira}$$
+                         $$\frac{\text{1890 zira}}{\text{20 derece}}=\text{94.5 zira}$$
+                           \end{formula}]]>
+                        </formula>
+          </p>
+               <p n="2" xml:lang="ModernT">
+                  <seg n="7-14"> [7-14] <add>İkinci cevap:</add> Orantı ile çözümlendiği takdirce de cetvel yaklaşık 63 çap geçmişti. Bu iki işaretin ortasında bulunan 30 zirayı 20 dereceye oranladık. İki katı ve yarım oranladığımızda o şeyin uzaklığı da iki katı ve yarım olurmuş. Buna göre, çap 63, iki katı yine 63, yarısı ise 31 buçuktur. O 31 buçuk olan <add>yarı</add> çapı, 63 olan çapa ekledik yine önceki gibi 94 buçuk zira bulundu, var sen artık kıyas et.</seg> 
+                 <!-- İkinci yöntem, orantıya göre, cetvel 63 çap geçmişse bunu 30zira ve 63 derece ile oranlarız.Yine 30*63=1890 olur ve bunu 20'ye böleriz. 94,5 zira olur. -->
+                  <formula notation="TeX">
+                     <![CDATA[ 
+                     \begin{formula}
+                     $$\frac{\text{30 zira}}{\text{20 derece}}=\frac{\text{uzaklık}}{\text{sinüsün ikinci konulan yere kadar olan uzaklığı}}$$
+                     $$\text{uzaklık} = \frac{\text{sinüsün ikinci konulan yere kadar olan uzaklığı} \cdot (2 + 0.5)}{2} + \frac{\text{63 çap}}{2}$$
+                     $$\text{uzaklık} = \frac{\text{sinüsün ikinci konulan yere kadar olan uzaklığı} \cdot 2.5}{2} + \text{31.5 çap}$$
+                           \end{formula}]]>
+                  </formula>
+               </p> 
+               <p n="3" xml:lang="ModernT">
+                  <seg n="15">[15-16] Tamamlanmış.</seg><seg n="16">Bitti.</seg>
+             </p>  
+            </div>  
+         </div>   
+       <div type="chapter" n="3">
+            <head n="3" rend="bold" style="color:black;">III. Bölüm - Terim Sözlüğü</head>
+            
+            <list type="terms">      
+             <item>
+                  <term xml:lang="Ar"><hi rend="bold">aʿdād </hi>(Ar. <add>çoğ.</add>)<hi
+                        rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> sayılar</desc>
+               </item>
+          <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">ʿaded </hi>(Ar.)<hi rend="bold">: </hi></term>
+                  <desc xml:lang="T"> sayı </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">ʿalāmet</hi> (Ar.)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> işaret, hesaplamada kullanılan iki uzaklığın her biri için tespit edilen rakamı için kullanılan im. </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa"><hi rend="bold"> ʿalāmeteyn-i merḳūmeteyn </hi>(Fa.)<hi
+                        rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> iki kabul edilmiş işaret </desc>
+               </item>
+                 <item>
+                  <term xml:lang="T"><hi rend="bold"> ʿalāmeteynüŋ mabeyni</hi><hi rend="bold">:
+                     </hi></term>
+                  <desc xml:lang="T"> iki işaretin ortasındaki sayı</desc>
+               </item>
+                 <item>
+                  <term xml:lang="T"><hi rend="bold"> āletüŋ ʿameli </hi>(T.)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> aletin işlevi</desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa">
+                     <hi rend="bold">ʿamel-i merḳūm </hi>(Fa.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> sayıların işlemi </desc>
+               </item>
+                 <item>
+                  <term xml:lang="T"><hi rend="bold"> az az </hi>(T)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> yavaş yavaş, az az </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa"><hi rend="bold"> bālā</hi><hi rend="bold"> </hi>(Fa.)<hi
+                        rend="bold">:</hi></term>
+                  <desc xml:lang="T"> uzunluk </desc>
+               </item> 
+                 <item>
+                  <term xml:lang="Fa">
+                     <hi rend="bold"> bāliġ ol- </hi>(T)<hi rend="bold">: </hi></term>
+                  <desc xml:lang="T"> yetişmek, ulaşmak </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa"><hi rend="bold"> baş-ı pāy</hi> (Fa.): </term>
+                  <desc xml:lang="T"> (pergel) ayağının başı, ucu </desc>
+               </item>
+                 <item>
+                  <term xml:lang="T">
+                     <hi rend="bold">beş </hi>(T.)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> sayma sayısı, 5 </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">buʿd</hi> (Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> uzaklık </desc>
+               </item>
+                 <item>
+                  <term xml:lang="T"><hi rend="bold"> buʿdeynüŋ miḳdārı:</hi></term>
+                  <desc xml:lang="T"> iki uzaklığın miktarı </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">cānib </hi>(Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> yön, taraf </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar"><hi rend="bold"> cānibeyn</hi> (Ar)<hi rend="bold"
+                     >:</hi></term>
+                  <desc xml:lang="T"> iki taraf, iki yön </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">ḍarb </hi>(Ar):</term>
+                  <desc xml:lang="T"> çarpma </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar"><hi rend="bold"> ḍarb it- </hi>(T.)<hi rend="bold">:
+                     </hi></term>
+                  <desc xml:lang="T"> çarpmak </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar"><hi rend="bold"> derecāt</hi> (Ar. <add>çoğ.</add>): </term>
+                  <desc xml:lang="T"> dereceler </desc>
+               </item>
+              <item>
+                  <term xml:lang="Fa"><hi rend="bold"> dirāz </hi>(Fa.):</term>
+                  <desc xml:lang="T"> uzun </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa"><hi rend="bold"> eczā-i ẓıll</hi>(Fa.): </term>
+                  <desc xml:lang="T"> gölgenin kesirleri, parçasal değerleri </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa"><hi rend="bold"> fażliyye-i ḳāme </hi>(Fa.)<hi rend="bold"
+                        >:</hi>
+                  </term>
+                  <desc xml:lang="T"> dikmenin fazlası </desc>
+               </item> 
+                 <item>
+                  <term xml:lang="Ar"><hi rend="bold"> fetḥ ol- </hi>(T.)<hi rend="bold">:
+                     </hi></term>
+                  <desc xml:lang="T">(pergelin ayaklarının) açılması </desc>
+               </item>
+                 <item>
+                  <term xml:lang="T">
+                     <hi rend="bold">ḫālī ol-  </hi>(T.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> (aletin bir ayağını veya parçasını) boşta bırakmak </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa">
+                     <hi rend="bold">ḥāric-i ḳısmet </hi>(Fa.)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> bölüm </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa">
+                     <hi rend="bold">ḥāṣıl-ı ḍarb</hi> (Fa.)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> çarpma işleminin sonucu </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa">
+                     <hi rend="bold">ḥaṭṭ-ı ẓıll</hi>(Fa.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> gölge çizgisi </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa">
+                     <hi rend="bold">ḥaṭṭ-ı merḳūm</hi> (Fa.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> (ebced harfleriyle oluşan) sayı doğrusu </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa">
+                     <hi rend="bold">ḥaṭṭ-ı müstaḳīm</hi> (Fa.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> doğru </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">hedefeteyn </hi> (Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> iki hedef ; metinde özel bir geometirk figüre işaret etmez.
+                     Metinde bu terimin kullanımı özellikle belirli bir amaca yönelik iki aşamada
+                     gerçekleştirilen işlemleri ifade etmek amacıyla kullanılmıştır. Metindeki
+                     kullanımına göre bu iki aşamalı işlem, bir noktadan belirli bir uzaklıkta iki
+                     farklı noktaya yönelik yapılan iki çizgi çizme işlemi veya bir noktadan belirli
+                     bir açıda iki adet kesit çizme işlemidir.</desc>
+               </item>
+                 <item>
+                  <term xml:lang="T">
+                     <hi rend="bold">ḥıfẓ it- </hi>(T.)<hi rend="bold">: </hi></term>
+                  <desc xml:lang="T"> sayıyı elde diye tutmak </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa">
+                     <hi rend="bold">ḥurūf-ı teḥeccī</hi> (Fa.): </term>
+                  <desc xml:lang="T"> hece harfleri </desc>
+               </item>
+              <item>
+                  <term xml:lang="ar">
+                     <hi rend="bold">ʿiżāde</hi> (Ar): </term>
+                  <desc xml:lang="tr"> harita, cetvel </desc>
+               </item>
+                 <item>
+                  <term xml:lang="T">
+                     <hi rend="bold">ʿiżādenüŋ ḫālī </hi>(T.)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> cetvelin boş şekli, cetvelin işlem yapılmadan önceki hali
+                  </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">ḳāme</hi> (Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> dikme </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">ḳaṭʿ eyle- </hi>(T.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> yol almak, geçmek, derece almak </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">ḳısmet</hi> (Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> bölme </desc>
+               </item> 
+               <item>
+                  <term xml:lang="T">
+                     <hi rend="bold">ḳısmet it-  </hi>(T.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> bölmek </desc>
+               </item>   
+                 <item>
+                  <term xml:lang="fa">
+                     <hi rend="bold">ḳısmet-i merḳūm</hi> (Fa)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="tr"> bölünen sayı </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">ḳuṭr</hi> (Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> çap </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">mabeyn</hi> (Ar.)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> orta </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">maʿlūm</hi> (Ar.)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> bilinen (sayı) </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">mesāfe </hi>(Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> uzaklık </desc>
+               </item>
+             <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">meẕkūr</hi> (Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> bilinen (sayı, sonuç) </desc>
+               </item>
+                 <item>
+                  <term xml:lang="T">
+                     <hi rend="bold">mıḥlan- </hi>(T.)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> yerleştirmek </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">miḳdār </hi>(Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> miktar </desc>
+               </item>
+                 <item>
+                  <term xml:lang="T">
+                     <hi rend="bold">ne miḳdār </hi>(T.+Ar.)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> ne kadar, soru zamiri </desc>
+               </item>
+                <item>
+                  <term xml:lang="Fa">
+                     <hi rend="bold">nıṣf لا ve nīm </hi>(Fa.): </term>
+                  <desc xml:lang="T"> otuz bir buçuk </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa"><hi rend="bold"> nīm</hi> (Fa.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> yarım </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">nisbet</hi> (Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> orantı </desc>
+               </item><item>
+                  <term xml:lang="T">
+                     <hi rend="bold">nisbet ṭut- </hi>(T.)<hi rend="bold">: </hi></term>
+                  <desc xml:lang="T"> oranlamak, orantılamak </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa">
+                     <hi rend="bold">pāy-ı dirāz</hi> (Fa)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> uzun ayak (pergel) </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa">
+                     <hi rend="bold">per-gār</hi> (Fa)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> pergel </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa"><hi rend="bold"> rāst gönye</hi> (Fa. + Yun.)<hi rend="bold"
+                        >:</hi></term>
+                  <desc xml:lang="T"> düz gönye </desc>
+               </item>
+               <item>
+                  <term xml:lang="T">
+                     <hi rend="bold">resm it- </hi>(T.)<hi rend="bold">: </hi></term>
+                  <desc xml:lang="T"> çizmek </desc>
+               </item>
+                 <item>
+                  <term xml:lang="T">
+                     <hi rend="bold">sinüsüŋ mevżiʿ-i s̱ānī </hi>(T.)<hi rend="bold">: </hi></term>
+                  <desc xml:lang="T"> sinüs aletinin ikinci bulanacağı yer </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">s̱uḳbeteyn </hi>(Ar.)<hi rend="bold">: </hi></term>
+                  <desc xml:lang="T"> iki delik </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">şeyʾ</hi>(Ar.)<hi rend="bold">: </hi></term>
+                  <desc xml:lang="T"> x, bilinmek istenen değer</desc>
+               </item>
+                 <item>
+                  <term xml:lang="T"><hi rend="bold"> taḥrīk it- </hi>(T.)<hi rend="bold"
+                     >:</hi></term>
+                  <desc xml:lang="T">kımıldatmak </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">taḳrīben </hi>(Ar.)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> yaklaşık (değer) </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">ṭarīḳ </hi>(Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> yol, yöntem </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa"><hi rend="bold"> ṭarīḳ-i evvel </hi>(Fa.)<hi rend="bold"
+                        >:</hi></term>
+                  <desc xml:lang="T"> birinci yol </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Fa"><hi rend="bold"> ṭarīḳ-i s̱ānī </hi>(Fa.)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> ikinci yol, yöntem </desc>
+               </item>
+                 <item>
+                  <term xml:lang="T"><hi rend="bold"> ṭavīl ol- </hi>(T.)<hi rend="bold">:
+                     </hi></term>
+                  <desc xml:lang="T"> uzun olmak </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">teḳāṭuʿ</hi>(Ar.)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> kesişim </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar"><hi rend="bold"> ṭūl </hi>(Fa.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> uzun </desc>
+               </item>
+                 <item>
+                  <term xml:lang="T"><hi rend="bold"> uç </hi>(T.)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> uç, kenar </desc>
+               </item>
+               <item>
+                  <term xml:lang="T">
+                     <hi rend="bold">yüz </hi>(T.)<hi rend="bold">: </hi></term>
+                  <desc xml:lang="T"> sayma sayısı, 100 </desc>
+               </item>
+                 <item>
+                  <term xml:lang="T">
+                     <hi rend="bold">żamm eyle- </hi>(T.)<hi rend="bold">:</hi>
+                  </term>
+                  <desc xml:lang="T"> eklemek, toplamak </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">ẕirāʿ</hi>(Ar.)<hi rend="bold">: </hi></term>
+                  <desc xml:lang="T"> bir kolun dirseğinden orta parmak ucuna kadar uzunluk ölçüsü
+                     (75-90cm) </desc>
+               </item>
+                 <item>
+                  <term xml:lang="T">
+                     <hi rend="bold">ẕirāʿla- </hi>(T.)</term>
+                  <desc xml:lang="T"> zira ölçüsüne vurmak, zira ölçüsüyle hesaplamak </desc>
+               </item>
+                   <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">س </hi>(Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> ebced sayı değeri, altmış, 60 </desc>
+               </item>
+               <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">ق</hi>(Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> ebced sayı değeri, yüz, 100</desc>
+               </item>
+             <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">قك</hi>(Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> ebced sayı değeri, yüz yirmi, 120</desc>
+               </item>
+               <item>
+                 <term xml:lang="Ar">
+                     <hi rend="bold">سج</hi> (Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> ebced sayı değeri, altmış üç, 63 </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar"><hi rend="bold"> ص </hi>(Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> ebced sayı değeri, doksan, 90 </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">صد</hi> (Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> ebced sayı değeri, doksan dört, 94 </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar">
+                     <hi rend="bold">غضص</hi>(Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T">ebced sayı değeri, bin sekiz yüz doksan, 1890 </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar"><hi rend="bold"> ﮎ </hi>(Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> ebced sayı değeri, yirmi, 20 </desc>
+               </item>
+                 <item>
+                  <term xml:lang="Ar"><hi rend="bold"> ل</hi> (Ar.)<hi rend="bold">:</hi></term>
+                  <desc xml:lang="T"> ebced sayı değeri, otuz, 30 </desc>
+               </item>      
+             </list>
+         </div>
+      </body>
+  </text>
+  
+      
+</TEI>
